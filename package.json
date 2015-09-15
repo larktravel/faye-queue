@@ -1,0 +1,25 @@
+{
+  "name": "faye-queue",
+  "version": "1.0.0",
+  "description": "blah",
+  "main": "https_faye.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/larktravel/faye-queue.git"
+  },
+  "author": "Koushik Dasika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larktravel/faye-queue/issues"
+  },
+  "homepage": "https://github.com/larktravel/faye-queue",
+  "dependencies": {
+    "daemon": "^1.1.0",
+    "faye": "^1.1.2",
+    "faye-redis": "^0.2.0",
+    "redis": "^1.0.0"
+  }
+}
