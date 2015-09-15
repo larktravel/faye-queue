@@ -4,7 +4,8 @@
   "description": "blah",
   "main": "https_faye.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node https_faye.js"
   },
   "repository": {
     "type": "git",
