@@ -1,7 +1,7 @@
-require ("daemon")();
+//require ("daemon")();
 
 //var https = require('https'),
-var https = require('http'),
+var http = require('http'),
     redis = require('faye-redis'),
     fs    = require('fs'),
     faye  = require('faye');
