@@ -1,4 +1,4 @@
-//require ("daemon")();
+require ("daemon")();
 
 //var https = require('https'),
 var http = require('http'),
@@ -33,4 +33,4 @@ var server = http.createServer(function(request, response) {
 
 
 bayeux.attach(server);
-server.listen(5223);
+server.listen(6000);
